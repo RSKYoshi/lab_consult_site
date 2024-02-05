@@ -22,7 +22,8 @@
     "jsx": "react-jsx"
   },
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    "jsx": "react"
   },
   "include": ["src"]
 }
