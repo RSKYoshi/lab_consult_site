@@ -1,7 +1,7 @@
 
-import {Route, Routes } from "react-router-dom";
-// import {LandingPage} from "/Users/mac/IdeaProjects/lab_consult_site/labsite/src/views/LandingPage.tsx";
-import {LandingPage} from "./views/LandingPage";
+import { Route, Routes } from "react-router-dom";
+import { LandingPage } from "./views/LandingPage";
+import { HomePage} from "./views/HomePage";
 import * as React from "react";
 
 console.log("test_App.tsx");
@@ -19,6 +19,7 @@ export const App = () => (
     // )
 
     <Routes>
-            <Route path="/" element = {<LandingPage />} />
+        <Route path="/" element = {<LandingPage />} />
+        <Route path="/home" element = {<HomePage />} />
     </Routes>
 )
