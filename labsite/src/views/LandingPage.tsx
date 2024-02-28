@@ -10,7 +10,7 @@ export const LandingPage = (): React.ReactElement => {
             <div>
                 Landing Page!!!
                 Click here to go to home page:
-                <ClickableButton />
+                <ClickableButton to="/home" text="Home"/>
             </div>
         </>
     )
