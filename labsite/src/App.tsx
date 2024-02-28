@@ -7,17 +7,6 @@ import * as React from "react";
 console.log("test_App.tsx");
 
 export const App = () => (
-    // alert("test");
-    // return (
-    //     <>
-    //         <div>
-    //             <Routes>
-    //                 <Route path="/" element={<LandingPage/>}/>
-    //             </Routes>
-    //         </div>
-    //     </>
-    // )
-
     <Routes>
         <Route path="/" element = {<LandingPage />} />
         <Route path="/home" element = {<HomePage />} />

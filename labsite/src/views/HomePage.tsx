@@ -1,4 +1,5 @@
 import * as React from "react";
+import {Navbar} from "../components/Navbar";
 
 export const HomePage = (): React.ReactElement => {
     console.log("test_HomePage.tsx");
@@ -7,6 +8,7 @@ export const HomePage = (): React.ReactElement => {
             <div>
                 Home Page!!!
             </div>
+            <Navbar />
         </>
     )
 }
