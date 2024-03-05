@@ -1,8 +1,7 @@
 import * as React from "react";
-
 export const Navbar = (props: {}) => {
     return <>
-        <nav>
+        <nav className= "bg-blue">
             this is the navbar
             <div>Home</div>
             <div>About</div>

@@ -1,5 +1,12 @@
 {
   "dependencies": {
-    "@types/react-router": "^5.1.20"
+    "@types/react-router": "^5.1.20",
+    "twin.macro": "^3.4.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
   }
 }
